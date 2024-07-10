@@ -19,12 +19,14 @@ Variables:
 Setup Function:
 
 1.Initializes serial communication and the DFPlayer Mini.
+
 2.Configures all buttons as input with internal pull-up resistors.
 
 Loop Function:
-
 1.Checks volume control buttons to adjust volume.
+
 2.Monitors page select buttons to switch pages.
+
 3.Detects button presses on the current page to play corresponding audio files.
 
 Summary
