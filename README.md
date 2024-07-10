@@ -6,8 +6,7 @@ Libraries and Initialization:
 1.Includes Arduino.h and DFRobotDFPlayerMini.h.            
 2.Creates an instance of the DFPlayer Mini (myDFPlayer).                
 3.Pin Definitions:
-
-Defines pin numbers for volume control, page select, and 12 interactive buttons.
+4.Defines pin numbers for volume control, page select, and 12 interactive buttons.
 
 
 Variables:
@@ -24,5 +23,6 @@ Loop Function:
 1.Checks volume control buttons to adjust volume.
 2.Monitors page select buttons to switch pages.
 3.Detects button presses on the current page to play corresponding audio files.
+
 Summary
 This code enables an interactive Bangla book, allowing users to adjust volume, select pages, and play audio files by pressing buttons, enhancing the educational experience with tactile and auditory feedback.
