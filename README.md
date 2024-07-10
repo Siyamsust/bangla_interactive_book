@@ -3,8 +3,8 @@ This Arduino code powers an interactive Bangla book using an Arduino board and a
 Key Components:
 Libraries and Initialization:
 
-1.Includes Arduino.h and DFRobotDFPlayerMini.h.
-2.Creates an instance of the DFPlayer Mini (myDFPlayer).
+1.Includes Arduino.h and DFRobotDFPlayerMini.h.            
+2.Creates an instance of the DFPlayer Mini (myDFPlayer).                
 3.Pin Definitions:
 
 Defines pin numbers for volume control, page select, and 12 interactive buttons.
