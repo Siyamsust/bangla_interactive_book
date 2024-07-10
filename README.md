@@ -8,18 +8,19 @@ Libraries and Initialization:
 3.Pin Definitions:
 
 Defines pin numbers for volume control, page select, and 12 interactive buttons.
-Variables:
 
+
+Variables:
 1.currentPage tracks the current page.
 2.volume sets the initial volume level.
 3.fileMap maps each button on each page to specific audio files.
 4.lastButtonState detects button presses.
-Setup Function:
 
+Setup Function:
 1.Initializes serial communication and the DFPlayer Mini.
 2.Configures all buttons as input with internal pull-up resistors.
-Loop Function:
 
+Loop Function:
 1.Checks volume control buttons to adjust volume.
 2.Monitors page select buttons to switch pages.
 3.Detects button presses on the current page to play corresponding audio files.
