@@ -1,4 +1,19 @@
-This Arduino code powers an interactive Bangla book using an Arduino board and a DFPlayer Mini MP3 player module. The system allows users to navigate through different pages and play corresponding audio files for each button press.
+This Arduino code is designed to create an interactive Bangla book using an Arduino board and a DFPlayer Mini MP3 player module. The system allows users to navigate through different pages and play corresponding audio files for each button press.
+
+
+How It Works:
+
+Initialization:
+The Arduino initializes the DFPlayer Mini and sets up pins for all buttons with internal pull-up resistors.
+
+Volume Adjustment:
+Users can increase or decrease the volume using dedicated buttons.
+
+Page Selection:
+Users select a page using page navigation buttons.
+
+Audio Playback:
+Pressing any of the 12 buttons on the selected page triggers playback of a corresponding audio file.
 
 Key Components:
 
